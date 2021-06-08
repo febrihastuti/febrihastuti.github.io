@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bagian Header HTML untuk meletakkan metadata 
+        pada informasi website pendukung 
+        seperti CSS tidak ditampilkan
+    -->
+    <!-- Isi File Metadata -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Animated On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>My Portofolio</title>
+</head>
+<body>
+    <!-- Tag body merupakan isi dari dokumen HTML 
+        untuk meletakan informasi yang akan ditampilkan pada browser. 
+    -->
+    <!-- Isi File Sidebar dan Main Content -->
+    
+  <!-- Sidebar -->
+  <aside class="main-sidebar" id="main-sidebar">
+    <section class="sidebar">
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fa fa-2x fa-bars"></i>
+      </div>
+
+      <!-- list menu -->
+      <ul class="side-list">
+        <li class="side-item-first"><a class="side-name">Febri Hastuti</a></li>
+        <li class="side-item" id="beranda">
+          <i class="fas fa-tachometer-alt icon-sidebar"></i>
+          <a href="#beranda1" class="nav__link">Beranda</a>
+        </li>
+        <li class="side-item" id="profil">
+          <i class="fas fa-user icon-sidebar"></i>
+          <a href="#profil1" class="nav__link"> Profil</a>
+        </li>
+        <li class="side-item" id="kemampuan">
+          <i class="fas fa-book icon-sidebar"></i>
+          <a href="#kemampuan1" class="nav__link">Kemampuan</a>
+        </li>
+        <li class="side-item" id="pendidikan">
+          <i class="fas fa-graduation-cap icon-sidebar"></i>
+          <a href="#pendidikan1" class="nav__link">Pendidikan</a>
+        </li>
+        <li class="side-item" id="prestasi">
+          <i class="fas fa-trophy icon-sidebar"></i>
+          <a href="#prestasi1" class="nav__link">Prestasi</a>
+        </li>
+        <li class="side-item" id="pengalaman">
+          <i class="fas fa-chart-line icon-sidebar"></i>
+          <a href="#pengalaman1" class="nav__link">Pengalaman</a>
+        </li>
+
+        <!-- sosial media -->
+        <div class="social__media">
+          <a href="https://www.facebook.com/" target="_blank" class="social__media-link"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="social__media-link"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank" class="social__media-link"><i
+              class="fab fa-twitter"></i></a>
+          <a href="https://id.linkedin.com/in/" target="_blank" class="social__media-link"><i
+              class="fab fa-linkedin"></i></a>
+        </div>
+      </ul>
+    </section>
+  </aside>
+
+<!-- Layout utama untuk mengisi konten-->
+<main class="main-content">
+    
+    <!-- Isi File Seluruh Content -->
+    <!-- Home Content -->
+    
+    <!-- Home -->
+    <section class="home" id="beranda">
+        <div class="home__container" id="beranda1">
+          <div class="home__data">
+            <div class="home__img">
+              <!-- Di dalam element src masukan foto identitas diri -->
+              <img src="img/foto.jpg" data-aos="flip-left" />
+            </div>
+            <div class="title">
+              <h1 class="home__title"></h1>
+              <span class="home__profession"></span>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <!-- Profil Content -->
+    
+    <!-- Profil -->
+    <section class="about" id="profil">
+        <h1 class="section-title" id="profil1">Profil</h1>
+  
+        <div class="about__container bd-grid" data-aos="fade-right">
+          <div class="about__data">
+            <!-- Di dalam element src masukan foto identitas diri -->
+            <img src="img/foto.jpg" class="about__img" alt="" />
+            <p class="about__description">
+              Saya anggota Karang Taruna Rw 01 Kelurahan Harapan Jaya. Saya mengikuti pengabdian masyarakat mahasiswa universitas nusa mandiri
+            </p>
+          </div>
+  
+          <div class="about__information">
+            <h3 class="about__information-title">Informasi</h3>
+  
+            <div class="about__information-data">
+              <i class="fas fa-address-book about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Hobi </span>
+                <span class="about__information-subtitle-small">Membaca Buku</span>
+              </div>
+            </div>
+  
+            <div class="about__information-data">
+              <i class="fas fa-calendar-alt about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Tanggal Lahir</span>
+                <span class="about__information-subtitle-small">28 Februari 2000</span>
+              </div>
+            </div>
+  
+            <div class="about__information-data">
+              <i class="fas fa-map-marker-alt about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Alamat</span>
+                <span class="about__information-subtitle-small">Cikaret</span>
+              </div>
+            </div>
+  
+            <div class="about__information-data">
+              <i class="fas fa-tint about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Golongan Darah</span>
+                <span class="about__information-subtitle-small">B</span>
+              </div>
+            </div>
+  
+            <div class="about__information-data">
+              <i class="fas fa-address-card about__information-icon"></i>
+              <div>
+                <span class="about__information-subtitle">Agama</span>
+                <span class="about__information-subtitle-small">Islam</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Skills Content -->
+    
+    <!-- Skills -->
+    <section class="skills" id="kemampuan">
+        <h1 class="section-title skills__title" id="kemampuan1">Kemampuan</h1>
+  
+        <div class="skills__container bd-grid">
+          <div class="skills__content" id="progess-skills">
+            <h3 class="skills__subtitle">
+              Tutor Mengajar
+              <hr />
+            </h3>
+  
+            <div class="skills__data">
+              <div class="skills__icon"><i class="fas fa-flag-usa"></i></div>
+              <span class="skills__name">Berbahasa Inggris</span>
+              <span class="skills__number">80</span>
+              <span class="skills__bar skills__html" data-progress="80"></span>
+            </div>
+            <div class="skills__data">
+                <div class="skills__icon"><i class="fas fa-phone-volume"></i></div>
+                <span class="skills__name">Komunikasi</span>
+                <span class="skills__number">80</span>
+                <span class="skills__bar skills__html" data-progress="80"></span>
+              </div>
+              <div class="skills__data">
+                <div class="skills__icon"><i class="fas fa-network-wired"></i></div>
+                <span class="skills__name">Bekerjasama dalam Kelompok</span>
+                <span class="skills__number">80</span>
+                <span class="skills__bar skills__html" data-progress="80"></span>
+              </div>
+  
+          </div>
+  
+          <!-- Skills Bahasa -->
+          <div class="skills__content">
+            <h3 class="skills__subtitle">
+              Bahasa
+              <hr />
+            </h3>
+  
+            <div class="skills__data">
+              <div class="skills__icon"><img src="img/indonesia.png" style="width: 30px; height: 30px;"></div>
+              <span class="skills__name">Bahasa Indonesia</span>
+              <span class="skills__number">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+  
+              </span>
+            </div>
+  
+            <div class="skills__data">
+              <div class="skills__icon"><img src="img/inggris.png" style="width: 30px; height: 30px;"></div>
+              <span class="skills__name">Bahasa Inggris</span>
+              <span class="skills__number">
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <!-- Education Content -->
+    
+    <!-- Education -->
+  <section class="education" id="pendidikan">
+    <h1 class="section-title" id="pendidikan1">Pendidikan</h1>
+
+    <div class="education__container bd-grid" data-aos="fade-up">
+
+      <div class="education__content">
+        <div>
+          <h3 class="education__icon"><i class="fas fa-2x fa-user-graduate"></i></h3>
+        </div>
+        <div class="education__time">
+          <span class="education__rounder">2006</span>
+          <span class="education__line"></span>
+        </div>
+        <div>
+          <h3 class="education__race">SDN CIKARET 02</h3>
+        </div>
+      </div>
+      <div class="education__content">
+        <div>
+          <h3 class="education__icon"><i class="fas fa-2x fa-user-graduate"></i></h3>
+        </div>
+        <div class="education__time">
+          <span class="education__rounder">2012</span>
+          <span class="education__line"></span>
+        </div>
+        <div>
+          <h3 class="education__race">SMP CITRA NUSA</h3>
+        </div>
+      </div>
+      <div class="education__content">
+        <div>
+          <h3 class="education__icon"><i class="fas fa-2x fa-user-graduate"></i></h3>
+        </div>
+        <div class="education__time">
+          <span class="education__rounder">2015</span>
+          <span class="education__line"></span>
+        </div>
+        <div>
+          <h3 class="education__race">SMAN 3 CIBINONG</h3>
+        </div>
+      </div>
+      <div class="education__content">
+        <div>
+          <h3 class="education__icon"><i class="fas fa-2x fa-user-graduate"></i></h3>
+        </div>
+        <div class="education__time">
+          <span class="education__rounder">2018</span>
+        </div>
+        <div>
+          <h3 class="education__race">UNIVERSITAS NEGERI JAKARTA</h3>
+        </div>
+      </div>
+
+    </div>
+    
+</section>
+
+    
+    <!-- AChievement Content -->
+    
+    <!-- Achievement -->
+    <section class="achievement" id="prestasi">
+        <h2 class="section-title" id="prestasi1">Prestasi</h2>
+  
+        <div class="achievement__container bd-grid">
+          <div class="achievement__content">
+            <h3 class="achievement__subtitle" data-aos="fade-right">
+              Akademik
+              <hr />
+            </h3>
+  
+            <div class="achievement__data" data-aos="fade-right">
+              <span class="achievement__name">Juara 3 Lomba Cerdas Cermat</span>
+            </div>
+  
+            <!-- non akademik -->
+            <div class="achievement__content">
+              <h3 class="achievement__subtitle" data-aos="fade-left">
+                <br>
+                Non Akademik
+                <hr />
+              </h3>
+  
+              <div class="achievement__data" data-aos="fade-left">
+                <span class="achievement__name">Juara 3 Lomba Essay</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <!-- Experience Content -->
+    
+    <!-- Experience -->
+    <section class="experience" id="pengalaman">
+        <h2 class="section-title experience__title" id="pengalaman1">Pengalaman</h2>
+  
+        <div class="experience__container bd-grid">
+          <div class="experience__content">
+            <h3 class="experience__subtitle" data-aos="fade-right">
+              Organisasi
+              <hr />
+            </h3>
+  
+            <div class="experience__data" data-aos="fade-right">
+              <span class="experience__name"><!-Karang Taruna Rw 01</span>
+            </div>
+  
+            <!-- pelatihan dan sertifikasi -->
+            <div class="experience__content">
+              <h3 class="experience__subtitle" data-aos="fade-left">
+                <br>
+                Pelatihan dan Sertifikasi
+                <hr />
+              </h3>
+  
+              <div class="experience__data" data-aos="fade-left">
+                <span class="experience__name">Pengabdian Masyarakat Pelatihan Pembuatan Website Portofolio</span>
+              </div>
+  
+              <!-- Pekerjaan -->
+              <div class="experience__content">
+                <h3 class="experience__subtitle" data-aos="fade-right">
+                  <br>
+                  Pekerjaan
+                  <hr />
+                </h3>
+  
+                <div class="experience__data" data-aos="fade-right">
+                  <span class="experience__name">Mahasiswa</span>
+                </div>
+              </div>
+          </div>
+      </section>
+    <!-- Contact Content -->
+    
+    <!-- contact -->
+    <section class="contact" id="kontak">
+        <div class="contact__container bd-grid">
+          <h3 class="contact__title">Kontak</h3>
+          <div class="contact__information-data">
+            <i class='fab fa-whatsapp contact__information-icon'> </i>
+            <div>
+              <span class="contact__information-subtitle">No.Telp</span>
+              <span class="contact__information-subtitle-small">081234567890</span>
+            </div>
+          </div>
+  
+          <div class="contact__information-data">
+            <i class='fas fa-envelope contact__information-icon'> </i>
+            <div>
+              <span class="contact__information-subtitle">Email</span>
+              <span class="contact__information-subtitle-small">febrihastuti17@gmailcom</span>
+            </div>
+          </div>
+  
+          <div class="contact__information-data">
+            <i class='fab fa-telegram-plane contact__information-icon'> </i>
+            <div>
+              <span class="contact__information-subtitle">Telegram</span>
+              <span class="contact__information-subtitle-small">081234567890</span>
+            </div>
+          </div>
+        </div>
+    </section>
+</main>
+    <!-- Isi File Script Source Javascript -->
+    
+  <!-- javascript -->
+  <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <!-- Font Awesome -->
+  <script src="js/brands.min.js"></script>
+  <script src="js/solid.min.js"></script>
+  <script src="js/fontawesome.min.js"></script>
+  <!-- Animated On Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+  <!-- Main Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
